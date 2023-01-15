@@ -251,7 +251,7 @@ header {
 .sponsores .images {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 100px;
+    gap: 70px;
 }
 .sponsores .images img {
     transition: .2s;

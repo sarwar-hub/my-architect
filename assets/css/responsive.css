@@ -1,7 +1,7 @@
 /* Responsive */
 @media screen and (max-width: 767px) {
 
-    
+
     /* Globals */
     header, .sponsores img {
         width: 100%;
@@ -15,7 +15,10 @@
     }
     /* Globals */
 
-
+    nav, nav ul {
+        justify-content: center;
+        padding-left: 0;
+    }
 
 
     .team .images img {
@@ -47,5 +50,11 @@
     }
     .sponsores .description {
         width: 100%;
+    }
+
+
+
+    .contact input[type="submit"] {
+        width: 212px;
     }
 }

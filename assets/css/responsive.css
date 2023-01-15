@@ -62,5 +62,8 @@
     .contact input[type="submit"] {
         width: 212px;
     }
+    .contact input[type="text"], input[type="email"] {
+        border-radius: 5px;
+    }
 
 }

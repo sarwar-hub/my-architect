@@ -38,6 +38,12 @@ section {
 
 
 /* Navigation */
+header .logo span {
+    color: white;
+    padding: 1px 5px;
+    background-color: #FF900E;
+    border-radius: 5px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -80,6 +86,7 @@ nav ul li:hover a {
 /* Header hero */
 header {
     background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
 }
 .hero {
     display: flex;
@@ -173,8 +180,13 @@ header {
 .features .feature {
     padding: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.10);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
+    transition: .2s;
+}
+.features .feature:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.10);
+    transform: translateX(5px);
 }
 .xp {
     color: white;
@@ -240,7 +252,7 @@ header {
 .sponsores .images {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 100px;
 }
 .sponsores .images img {
     transition: .2s;
@@ -255,6 +267,48 @@ header {
     width: 500px;
     color: #727272;
 
+}
+
+
+
+
+/* Contact */
+.contact {
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 0;
+    margin-bottom: 0 !important;
+}
+.contact .title {
+    font-size: 2vw;
+}
+.contact .description {
+    margin: 20px 0;
+    color: #727272;
+}
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contact input[type="text"], input[type="email"] {
+    padding: 9px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid #FF900E;
+}
+
+
+/* Footer */
+footer {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 0;
+}
+.copyright-text {
+    text-align: center;
+    color: #727272;
 }
 
 

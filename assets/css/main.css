@@ -1,4 +1,260 @@
 /* Globals */
 * {
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+section {
+    margin: 100px 0;
+}
+.btn-primary {
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: #FF900E;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s;
+}
+.btn-primary:hover {
+    color: #FF900E;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.hero .hero-title {
+    font-size: 1.3vw;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li i {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    transition: .2s;
+    
+}
+nav ul li:hover a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
+
+
+/* Header hero */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero img {
+    width: 100%;
+    margin: 30px 0;
+}
+.hero .hero-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4vw;
+}
+.hero .hero-description {
+    max-width: 70%;
+    margin: 30px 0;
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+
+
+
+/* Team */
+.team {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.team .text {
+    width: 100%;
+    text-align: left;
+    font-size: 1.3vw;
+}
+.team .description {
+    color: #727272;
+    font-size: 16px;
+    margin: 30px 0;
+}
+.team .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    width: 100%;
+}
+.team .images img {
+    width: 345px;
+    height: 345px;
+}
+
+
+
+
+
+
+/* Features */
+.features {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+}
+.features .title {
+    font-size: 2vw;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+.features .text {
+    width: 50%;
+}
+.features .feature-title {
+    margin-bottom: 5px;
+}
+.features .feature-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 22.5px;
+}
+.features .description {
+    color: #727272;
+    margin: 20px 0;
+}
+.features .image img {
+    width: 100%;
+}
+.features .feature {
+    padding: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.xp {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    width: 120px;
+    font-weight: bold;
+    position: relative;
+    bottom: 90px;
+    left: 0;
+}
+
+
+
+
+
+
+/* Facts */
+.facts .title {
+    font-size: 2vw;
+}
+.facts .description {
+    color: #727272;
+    margin: 20px 0 80px 0;
+    width: 500px;
+}
+.facts .all-facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 100px;
+}
+.facts .fact {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    gap: 10px;
+    transition: .2s;
+}
+.facts .fact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.20);
+    background-color: rgba(255, 144, 14, 0.1);;
+
+    
+}
+
+
+
+/* Sponsores */
+.sponsores {
+    text-align: center;
+}
+.sponsores .title {
+    font-size: 2vw;
+}
+.sponsores .images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.sponsores .images img {
+    transition: .2s;
+    filter: grayscale(100%);
+}
+.sponsores .images img:hover {
+    transform: scale(1.2);
+    filter: none;
+}
+.sponsores .description {
+    margin: 40px auto;
+    width: 500px;
+    color: #727272;
+
+}
+
+

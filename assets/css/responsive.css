@@ -1,1 +1,51 @@
+/* Responsive */
+@media screen and (max-width: 767px) {
 
+    
+    /* Globals */
+    header, .sponsores img {
+        width: 100%;
+    }
+    .team, form, nav {
+        flex-direction: column;
+    }
+    .team .images, .facts .all-facts, .sponsores .images {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    /* Globals */
+
+
+
+
+    .team .images img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .features {
+        flex-direction: column-reverse;
+    }
+    .features .text {
+        width: 100%;
+    }
+
+
+    
+    .facts .description {
+        width: 100%;
+    }
+
+
+
+    .sponsores .images img {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .sponsores .description {
+        width: 100%;
+    }
+}

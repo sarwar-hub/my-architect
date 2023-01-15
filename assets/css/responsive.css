@@ -11,7 +11,9 @@
     }
     .team .images, .facts .all-facts, .sponsores .images {
         grid-template-columns: repeat(1, 1fr);
-
+    }
+    .facts .title, .sponsores .title, .team .title, .features .title, .contact .title, .hero .hero-title {
+        font-size: 35px;
     }
     /* Globals */
 
@@ -57,4 +59,5 @@
     .contact input[type="submit"] {
         width: 212px;
     }
+
 }
